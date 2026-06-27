@@ -43,9 +43,6 @@ function updateSlide() {
 	updateDots()
 }
 
-function displayDots() {
-}
-
 function updateDots() {
 	const dots = document.querySelectorAll(".dot")
 	dots.forEach(function(dot) {
@@ -53,5 +50,3 @@ function updateDots() {
 	})
 	dots[indexSlide].classList.add("dot_selected")
 }
-
-updateSlide()
